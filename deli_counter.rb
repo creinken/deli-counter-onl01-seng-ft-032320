@@ -9,7 +9,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  if katz_deli.length = 1
+  if katz_deli.length == 1
     puts "Welcome, #{name}. You are number 1 inline."
   else
     puts "Welcome, #{name}. You are number #{katz_deli.length} inline."
