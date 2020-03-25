@@ -1,6 +1,6 @@
 def line(katz_deli)
   if katz_deli.length > 0 
-    puts katz_deli.each_with_index{|name, idx| "#{idx+1}. #{name}"}
+    puts "The line is currently:" + katz_deli.each_with_index{|name, idx| " #{idx+1}. #{name}"}
   else 
     puts "The line is currently empty."
   end
