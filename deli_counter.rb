@@ -2,10 +2,7 @@ def line(katz_deli)
   if katz_deli.length > 0 
     current_line = ""
     katz_deli.each_with_index{|name, idx| 
-      current_line << " "
-      current_line << (idx + 1)
-      current_line << ". "
-      current_line << name
+      current_line << " #{idx}. #{name}"
     }
     puts "The line is currently:#{current_line}"
   else 
